@@ -2,3 +2,5 @@
 .DS_Store?
 .zip
 .pdf
+main_test.go
+!/main_test.go

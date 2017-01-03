@@ -7,6 +7,7 @@ import (
 	"testing"
 )
 
+// Tests the solution
 func TestSolution(t *testing.T) {
 	// Prepare input and output
 	inFile, err := os.Open("in")
