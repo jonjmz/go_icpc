@@ -37,7 +37,7 @@ func TestSolution(t *testing.T) {
 		moreResult := resultScanner.Scan()
 		if moreDesired || moreResult {
 			if desiredScanner.Text() != resultScanner.Text() {
-				t.Errorf("%s VS %s", desiredScanner.Text(), resultScanner.Text())
+				t.Errorf("%-20s VS %s", desiredScanner.Text(), resultScanner.Text())
 			}
 		} else {
 			break
